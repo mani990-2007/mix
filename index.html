@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Mixer</h1>
+        <div class="color-box" id="color-box"></div>
+        <div class="color-info">
+            <p><strong>Hex:</strong> <span id="hex-value"></span></p>
+            <p><strong>RGB:</strong> <span id="rgb-value"></span></p>
+            <p><strong>HSL:</strong> <span id="hsl-value"></span></p>
+        </div>
+        <div class="color-gradient" id="color-gradient"></div>
+        <div class="controls">
+            <input type="color" id="color1" class="color-input">
+            <input type="color" id="color2" class="color-input">
+            <button id="mix-button">Mix Colors</button>
+            <button id="random-button">Random Color</button>
+            <button id="reset-button">Reset</button>
+            <button id="copy-button">Copy Color</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
